@@ -1,0 +1,3 @@
+{
+    "asm": "nasm -g -felf32 $fileName && gcc -g -m32 $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+}
